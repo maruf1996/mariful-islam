@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaDownload, FaFacebookF, FaFax, FaGithub, FaLinkedinIn, FaMobileAlt, FaPeriscope, FaRegCalendarAlt, FaTwitter } from 'react-icons/fa';
 import { Link, Outlet } from 'react-router-dom';
-import maruf from '../../img/maruf_2.png';
+import img from '../../img/maruf_2.png';
 
 const Devider = () => {
     return (
-        <div className="flex flex-col gap-6 w-full lg:flex-row p-4 lg:px-20 mt-40">
+        <div className="flex flex-col gap-6 w-full lg:flex-row lg:p-4 lg:px-20 mt-40">
         <div className="w-full lg:w-4/12 card bg-white rounded-box h-full lg:sticky lg:top-0 lg:z-50">
-        <figure className="-mt-28 bg-pink-300 w-6/12 shadow-lg mx-auto rounded-lg"><img className='w-full h-[230px]' src={maruf} alt=""/></figure>
+        <figure className="-mt-28 bg-pink-300 w-7/12 lg:w-6/12 shadow-lg mx-auto rounded-lg"><img className='w-full h-[220px]' src={img} alt=""/></figure>
             <div className="card-body">
               <div className="w-9/12 mx-auto">
               <h1 className='text-2xl font-bold text-center mb-1'>Mariful Islam</h1>
@@ -21,33 +21,33 @@ const Devider = () => {
               </div>
             </div>
 
-            <div className="card w-11/12 lg:10/12 mx-auto mb-2 bg-base-200 shadow-xl p-6">
+            <div className="card w-10/12 mx-auto mb-2 bg-base-200 shadow-xl p-6">
                 <div className="flex items-center border-b py-2">
                     <p className='bg-white p-3 rounded-lg mr-3 text-red-600 hover:bg-common hover:text-white'><FaMobileAlt/></p>
                     <div className="">
                         <p>Phone</p>
-                        <h4 className='text-xl'>+88 01978907918</h4>
+                        <h4 className='lg:text-xl'>+88 01978907918</h4>
                     </div>
                 </div>
                 <div className="flex items-center border-b py-2">
                     <p className='bg-white p-3 rounded-lg mr-3 text-green-600 hover:bg-common hover:text-white'><FaPeriscope/></p>
                     <div className="">
                         <p>Location</p>
-                        <h4 className='text-xl'>Dhaka, Bangladesh</h4>
+                        <h4 className='lg:text-xl'>Dhaka, Bangladesh</h4>
                     </div>
                 </div>
                 <div className="flex items-center border-b py-2">
                     <p className='bg-white p-3 rounded-lg mr-3 text-red-600 hover:bg-common hover:text-white'><FaFax/></p>
                     <div className="">
                         <p>Email</p>
-                        <h4 className='text-xl'>maruf3813@gmail.com</h4>
+                        <h4 className='lg:text-xl'>maruf3813@gmail.com</h4>
                     </div>
                 </div>
                 <div className="flex items-center border-b py-2">
                     <p className='bg-white p-3 rounded-lg mr-3 text-purple-600 hover:bg-common hover:text-white'><FaRegCalendarAlt/></p>
                     <div className="">
                         <p>Birthday</p>
-                        <h4 className='text-xl'>October 27, 1996</h4>
+                        <h4 className='lg:text-xl'>October 27, 1996</h4>
                     </div>
                 </div>
             </div>

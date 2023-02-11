@@ -9,6 +9,7 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        lobster: ["Abril Fatface", "cursive"],
       }
     },
   },

@@ -3,11 +3,11 @@ import React from 'react';
 const Resume = () => {
     return (
     <div>
-        <section className='px-14 pt-10'>
-            <h1 className='text-5xl font-black'>Resume</h1>
+        <section className='lg:px-14 px-4 lg:pt-10 mt-5'>
+            <h1 className='lg:text-5xl text-4xl font-black'>Resume</h1>
         </section>
-        <section className='px-14 mt-8'>
-        <div className="grid grid-cols-2 gap-10">
+        <section className='lg:p-14 p-4 mt-3 lg:m-0'>
+        <div className="grid grid-cols-2 lg:gap-10 gap-8">
         <div className="lg:col-span-1 col-span-2">
             <h1 className='text-2xl font-black mb-6'>Education</h1>
             <div className="card p-6 bg-pink-100 shadow-xl mb-7">
@@ -46,10 +46,10 @@ const Resume = () => {
             </div>
         </div>
         </section>
-        <section className='px-14 mt-8 bg-slate-100 pt-10'>
-        <div className="grid grid-cols-2 gap-10">
+        <section className='lg:px-14 px-4 lg:mt-8 bg-slate-100 lg:pt-10 pt-4'>
+        <div className="grid grid-cols-2 lg:gap-10 gap-2">
         <div className="lg:col-span-1 col-span-2">
-            <h1 className='text-2xl font-black mb-6'>Working Skills</h1>
+            <h1 className='text-2xl font-black lg:mb-6 mb-3'>Working Skills</h1>
             <div className=" mb-6">
             <div className="flex justify-between mb-1">
             <p className='font-semibold'>Web Design</p>
@@ -96,7 +96,7 @@ const Resume = () => {
         </div>
         </section>
         <section>
-            <p className='text-center p-7 bg-slate-100 rounded-lg text-gray-600'>© 2023 All Rights Reserved by mariful-islam.</p>
+            <p className='text-center lg:p-7 py-6 bg-slate-100 rounded-lg text-gray-600 text-1xl mt-1'>© 2023 All Rights Reserved by mariful-islam.</p>
         </section>
     </div>
     );
