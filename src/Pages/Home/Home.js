@@ -17,7 +17,7 @@ const Home = () => {
                     <p className='lg:text-4xl text-2xl text-pink-400 lg:mr-4 mr-2'><FaRegFileCode/></p>
                     <div className="">
                     <h4 className='font-bold'>Web Design</h4>
-                    <p className='mt-2 leading-7'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    <p className='mt-2 leading-7'>I will make a clean,unique and professional looking website.My design must be responsive in all devices,pixel perfect, and clean coding.</p>
                     </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Home = () => {
                     <p className='lg:text-4xl text-2xl text-fuchsia-400 lg:mr-4 mr-2'><FaCode/></p>
                     <div className="">
                     <h4 className='font-bold'>Web Development</h4>
-                    <p className='mt-2 leading-7'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    <p className='mt-2 leading-7'>I have been working with web development for almost 3 years. Also working on frontend and backend with HTML CSS bootstrap tailwind javascript.</p>
                     </div>
                     </div>
                 </div>
@@ -34,8 +34,8 @@ const Home = () => {
                     <div className="flex">
                     <p className='lg:text-4xl text-2xl text-orange-500 lg:mr-4 mr-2'><FaReacteurope/></p>
                     <div className="">
-                    <h4 className='font-bold'>Front end Development</h4>
-                    <p className='mt-2 leading-7'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    <h4 className='font-bold'>React Developer</h4>
+                    <p className='mt-2 leading-7'>React is currently a very popular framework, I am working on various React technologies including React, React Router DOM, React Icon, etc.</p>
                     </div>
                     </div>
                 </div>
@@ -44,16 +44,7 @@ const Home = () => {
                     <p className='lg:text-4xl text-2xl text-pink-400 lg:mr-4 mr-2'><FaCogs/></p>
                     <div className="">
                     <h4 className='font-bold'>Management</h4>
-                    <p className='mt-2 leading-7'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                    </div>
-                    </div>
-                </div>
-                <div className="card p-6 col-span-4 lg:col-span-2 bg-violet-50 shadow-xl">
-                    <div className="flex">
-                    <p className='lg:text-4xl text-2xl text-fuchsia-400 lg:mr-4 mr-2'><FaBacterium/></p>
-                    <div className="">
-                    <h4 className='font-bold'>Basic Backend Development</h4>
-                    <p className='mt-2 leading-7'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    <p className='mt-2 leading-7'>The management system of every website is very important, managing them is very easy with Mern Stack. I am working on that too.</p>
                     </div>
                     </div>
                 </div>
@@ -61,8 +52,17 @@ const Home = () => {
                     <div className="flex">
                     <p className='lg:text-4xl text-2xl text-orange-500 lg:mr-4 mr-2'><FaBuffer/></p>
                     <div className="">
-                    <h4 className='font-bold'>Basic Fullstack Development</h4>
-                    <p className='mt-2 leading-7'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    <h4 className='font-bold'>Front end Development</h4>
+                    <p className='mt-2 leading-7'>Front end development is very popular nowadays, I am working on front end using javascript, react, firebase authentication and other technologies.</p>
+                    </div>
+                    </div>
+                </div>
+                <div className="card p-6 col-span-4 lg:col-span-2 bg-violet-50 shadow-xl">
+                    <div className="flex">
+                    <p className='lg:text-4xl text-2xl text-fuchsia-400 lg:mr-4 mr-2'><FaBacterium/></p>
+                    <div className="">
+                    <h4 className='font-bold'>Backend Development</h4>
+                    <p className='mt-2 leading-7'>In addition to front end development, I am also working on backend and server using MongoDB, NodeJS, ExpressJS, and Vercel.</p>
                     </div>
                     </div>
                 </div>

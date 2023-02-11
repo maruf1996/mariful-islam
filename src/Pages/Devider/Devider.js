@@ -13,10 +13,10 @@ const Devider = () => {
               <h1 className='text-2xl font-bold text-center mb-1'>Mariful Islam</h1>
                 <h4 className='text-xl text-center mb-3'>Front End Developer</h4>
                 <div className="flex justify-around p-3">
-                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://web.facebook.com/profile.php?id=100012133538164"><FaFacebookF/></a>
-                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://twitter.com/maruf3813"><FaTwitter/></a>
-                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://github.com/maruf1996"><FaGithub/></a>
-                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://www.linkedin.com/feed/"><FaLinkedinIn/></a>
+                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://web.facebook.com/profile.php?id=100012133538164" target={`_blank`}><FaFacebookF/></a>
+                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://twitter.com/maruf3813" target={`_blank`}><FaTwitter/></a>
+                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://github.com/maruf1996" target={`_blank`}><FaGithub/></a>
+                    <a className='bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white' href="https://www.linkedin.com/feed/" target={`_blank`}><FaLinkedinIn/></a>
                 </div>
               </div>
             </div>
@@ -53,7 +53,9 @@ const Devider = () => {
             </div>
 
             <div className="text-center my-6">
+            <a href="https://drive.google.com/file/d/10zshDbo2k2B-Z5vKXuGJVe6bX8thj_jY/view?usp=sharing" target={`_blank`}>
             <button className="btn btn-wide btn-error text-white rounded-full"> <span className='mr-2'><FaDownload/></span> Download CV</button>
+            </a>
             </div>
         </div> 
 
