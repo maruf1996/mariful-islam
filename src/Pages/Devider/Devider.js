@@ -29,7 +29,7 @@ const Devider = () => {
             <h1 className="text-2xl font-bold text-center mb-1">
               Mariful Islam
             </h1>
-            <h4 className=" text-center mb-3">Full Stack (Junior) Developer</h4>
+            <h4 className=" text-center mb-3">Front End Developer</h4>
             <div className="flex justify-around p-3">
               <a
                 className="bg-base-200 p-3 rounded-lg text-blue-500 hover:bg-common hover:text-white"
@@ -104,7 +104,7 @@ const Devider = () => {
 
         <div className="text-center my-6">
           <a
-            href="https://drive.google.com/file/d/1cVfR7vpTGnn4NSL-4X1vtTHnoUNN54UW/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Cw4R1nlxHkzk0Li-oWP-BQiuLDxgm1lh/view?usp=sharing"
             target={`_blank`}
           >
             <button className="btn btn-wide btn-error text-white rounded-full">

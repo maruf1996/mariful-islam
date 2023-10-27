@@ -1,6 +1,40 @@
-import React from "react";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const Contact = () => {
+  const form = useRef();
+  const navigate = useNavigate();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mbxgc77",
+        "template_zkkjlrk",
+        form.current,
+        "TL9YTsBBnhIuNbDHA"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          if (result.text === "OK") {
+            Swal.fire({
+              icon: "success",
+              title: "Success",
+              text: "Your Order Recived Successfully",
+            });
+            navigate("/");
+          }
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div>
       <section className="lg:px-14 px-4 lg:pt-10 mt-5">
@@ -32,7 +66,7 @@ const Contact = () => {
           <h2 className="lg:text-2xl text-xl font-semibold mt-1 lg:mb-8 mb-3">
             design work or partnerships.
           </h2>
-          <form action="w-full">
+          <form ref={form} onSubmit={sendEmail} action="w-full">
             <div className="form-control w-full">
               <label className="label">
                 <span className="label-text font-semibold lg:text-xl">
@@ -41,6 +75,7 @@ const Contact = () => {
               </label>
               <input
                 type="text"
+                name="from_name"
                 className="input w-full input-bordered input-error"
                 required
               />
@@ -53,6 +88,7 @@ const Contact = () => {
               </label>
               <input
                 type="email"
+                name="from_email"
                 className="input w-full input-bordered input-success"
                 required
               />
@@ -65,6 +101,7 @@ const Contact = () => {
               </label>
               <textarea
                 className="textarea textarea-secondary"
+                name="message"
                 required
               ></textarea>
             </div>
