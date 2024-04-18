@@ -17,9 +17,10 @@ const Header = () => {
       <div className="flex-1">
         <Link
           to="/"
-          className="font-lobster text-3xl lg:text-5xl text-slate-700"
+          className="font-lobster text-3xl lg:text-5xl text-slate-500"
         >
-          Mariful Islam
+          <span className="text-common">Mariful_</span>Islam
+          <span className="text-common">_</span>
         </Link>
       </div>
       <div className="lg:hidden">
@@ -30,15 +31,18 @@ const Header = () => {
           onClick={() => setOpen(!open)}
           className={`items-stretch ${
             open
-              ? "flex flex-col fixed left-0 top-0 w-[90%] md:w-[80%] ease-in-out duration-500 bg-slate-500 h-full z-10 !important"
+              ? "flex flex-col fixed left-0 top-0 w-[85%] md:w-[80%] ease-in-out duration-500 bg-[#D4EBEF] h-full z-10 !important"
               : "fixed left-[-100%]"
           }`}
         >
           {links?.map((link) => (
-            <li key={link.id} className="py-2 border-b-2 text-white">
+            <li
+              key={link.id}
+              className="py-2 border-b-2 border-gray-700 text-gray-700"
+            >
               <Link
                 to={link.to}
-                className="p-4 uppercase hover:text-red-600 text-sm tracking-wide"
+                className="p-4 font-semibold uppercase hover:text-gray-600 text-sm tracking-wide"
               >
                 {link.title}
               </Link>

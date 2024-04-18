@@ -17,7 +17,7 @@ const Devider = () => {
   return (
     <div className="flex flex-col gap-6 w-full xl:flex-row xl:p-4 xl:px-20 mt-40">
       <div className="w-full xl:w-4/12 card bg-white rounded-box h-full xl:sticky xl:top-0 xl:z-50">
-        <figure className="-mt-28 bg-pink-300 w-7/12 xl:w-6/12 shadow-lg mx-auto rounded-lg">
+        <figure className="-mt-28 bg-pink-300 w-6/12 xl:w-7/12 shadow-lg mx-auto rounded-lg">
           <img
             className="w-full h-[15rem] md:h-[20rem] lg:h-[26rem] xl:h-[13rem]"
             src={img}
@@ -29,6 +29,7 @@ const Devider = () => {
             <h1 className="text-2xl font-bold text-center mb-1">
               Mariful Islam
             </h1>
+
             <h4 className=" text-center mb-3">Front End Developer</h4>
             <div className="flex justify-around p-3">
               <a
@@ -70,7 +71,7 @@ const Devider = () => {
             </p>
             <div className="">
               <p>Phone</p>
-              <h4 className="lg:text-xl">+88 01617589004</h4>
+              <h4 className="lg:text-xl">+88 01978907918</h4>
             </div>
           </div>
           <div className="flex items-center border-b py-2">
@@ -104,10 +105,15 @@ const Devider = () => {
 
         <div className="text-center my-6">
           <a
-            href="https://drive.google.com/file/d/1Cw4R1nlxHkzk0Li-oWP-BQiuLDxgm1lh/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tLOsLwh_SWMMv0F07LqpiwTMrbSbRP4K/view?usp=sharing"
             target={`_blank`}
           >
-            <button className="btn btn-wide btn-error text-white rounded-full">
+            <button
+              data-aos="zoom-in"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+              className="btn btn-wide btn-error text-white rounded-full"
+            >
               {" "}
               <span className="mr-2">
                 <FaDownload />

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import {
   FaBacterium,
@@ -10,25 +11,58 @@ import {
 
 const Home = () => {
   return (
-    <div>
-      <section className="2xl:px-14 px-4 2xl:pt-10 mt-5">
-        <h1 className="lg:text-5xl text-4xl font-black">About Me</h1>
-        <p className="2xl:mt-6 mt-3 leading-7 text-gray-500 text-justify">
-          I'm a Junior Full Stack Developer from Dhaka, Bangladesh, working in
-          web development and Front end Development, MERN Stack Dvelopment, And
-          Full Stack Development. I enjoy turning complex problems into simple,
-          beautiful and intuitive designs.
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 2 }}
+    >
+      <section className="2xl:px-14 px-6 2xl:pt-10 mt-5">
+        <h1
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+          className="lg:text-5xl text-4xl font-black"
+        >
+          About Me
+        </h1>
+        <p
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+          className="2xl:mt-6 mt-3 leading-7 text-gray-500 text-justify"
+        >
+          I'm a Front End Developer from Dhaka, Bangladesh, working in web
+          development and Front end Development, I enjoy turning complex
+          problems into simple, beautiful and intuitive designs.
         </p>
-        <p className="mt-6 leading-7 text-gray-500 text-justify">
+        <p
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+          className="mt-6 leading-7 text-gray-500 text-justify"
+        >
           My aim is to bring across your message and identity in the most
           creative way. I Working web development and Front end Development for
           many famous brand companies.
         </p>
       </section>
-      <section className="2xl:p-14 p-4 mt-3 2xl:m-0">
-        <h1 className="2xl:text-4xl text-2xl font-black mb-6">What I do!</h1>
+      <section className="2xl:p-14 p-6 mt-3 2xl:m-0">
+        <h1
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+          className="2xl:text-4xl text-2xl font-black mb-6"
+        >
+          What I do!
+        </h1>
         <div className="grid 2xl:gap-10 gap-8 grid-cols-4">
-          <div className="card p-6 col-span-4 2xl:col-span-2 bg-fuchsia-50 shadow-xl">
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            className="card p-6 col-span-4 2xl:col-span-2 bg-fuchsia-50 shadow-xl"
+          >
             <div className="flex">
               <p className="lg:text-4xl text-2xl text-pink-400 lg:mr-4 mr-2">
                 <FaRegFileCode />
@@ -36,14 +70,19 @@ const Home = () => {
               <div className="">
                 <h4 className="font-bold">Web Design</h4>
                 <p className="mt-2 leading-7 text-justify">
-                  I will make a clean,unique and professional looking website.My
-                  design must be responsive in all devices,pixel perfect, and
-                  clean coding.
+                  I will make a clean, unique and professional looking website.
+                  My design must be responsive in all devices, pixel perfect,
+                  and clean coding.
                 </p>
               </div>
             </div>
           </div>
-          <div className="card p-6 col-span-4 2xl:col-span-2 bg-violet-50 shadow-xl">
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            className="card p-6 col-span-4 2xl:col-span-2 bg-violet-50 shadow-xl"
+          >
             <div className="flex">
               <p className="lg:text-4xl text-2xl text-fuchsia-400 lg:mr-4 mr-2">
                 <FaCode />
@@ -51,14 +90,19 @@ const Home = () => {
               <div className="">
                 <h4 className="font-bold">Web Development</h4>
                 <p className="mt-2 leading-7 text-justify">
-                  I have been working with web development for almost 3 years.
-                  Also working on frontend and backend with HTML CSS bootstrap
-                  tailwind javascript.
+                  I have been learning and working with web development for
+                  almost 2 years. Also working on frontend and backend with HTML
+                  CSS bootstrap tailwind javascript.
                 </p>
               </div>
             </div>
           </div>
-          <div className="card p-6 col-span-4 2xl:col-span-2 bg-sky-50 shadow-xl">
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            className="card p-6 col-span-4 2xl:col-span-2 bg-sky-50 shadow-xl"
+          >
             <div className="flex">
               <p className="lg:text-4xl text-2xl text-orange-500 lg:mr-4 mr-2">
                 <FaReacteurope />
@@ -73,7 +117,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="card p-6 col-span-4 2xl:col-span-2 bg-fuchsia-50 shadow-xl">
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            className="card p-6 col-span-4 2xl:col-span-2 bg-fuchsia-50 shadow-xl"
+          >
             <div className="flex">
               <p className="lg:text-4xl text-2xl text-pink-400 lg:mr-4 mr-2">
                 <FaCogs />
@@ -88,7 +137,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="card p-6 col-span-4 2xl:col-span-2 bg-sky-50 shadow-xl">
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            className="card p-6 col-span-4 2xl:col-span-2 bg-sky-50 shadow-xl"
+          >
             <div className="flex">
               <p className="lg:text-4xl text-2xl text-orange-500 lg:mr-4 mr-2">
                 <FaBuffer />
@@ -103,7 +157,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="card p-6 col-span-4 2xl:col-span-2 bg-violet-50 shadow-xl">
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            className="card p-6 col-span-4 2xl:col-span-2 bg-violet-50 shadow-xl"
+          >
             <div className="flex">
               <p className="lg:text-4xl text-2xl text-fuchsia-400 lg:mr-4 mr-2">
                 <FaBacterium />
@@ -125,7 +184,7 @@ const Home = () => {
           © 2023 All Rights Reserved by mariful-islam.
         </p>
       </section>
-    </div>
+    </motion.div>
   );
 };
 
